@@ -8,7 +8,7 @@ const DocumentProptypes = (props) => {
     proptypes
   } = props.component;
   return (
-    <div className="docs-component-props m-t-3">
+    <div className="docs-component-props mt-5">
       <h3>{name} - PropTypes</h3>
       <pre>
         <PrismCode className="language-jsx">
@@ -26,7 +26,7 @@ const DocumentExamples = (props) => {
     source
   } = props.component;
   return (
-    <div className="docs-component-props m-t-3">
+    <div className="docs-component-props mt-5">
       <h3>{name}</h3>
       { demo && (
         <div className="docs-example">

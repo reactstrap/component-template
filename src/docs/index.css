@@ -1,7 +1,3 @@
-.container-fluid {
-  max-width: 1200px;
-}
-
 .jumbotron-header, .jumbotron-header p:last-child, .navbar {
   margin-bottom: 0
 }
@@ -79,9 +75,7 @@
 .jumbotron-heading {
   font-weight: 300
 }
-.container {
-  max-width: 40rem
-}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem
@@ -246,10 +240,4 @@ pre[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
-}
-
-code .tag {
-  font-size: inherit;
-  padding: 0;
-  display: inherit;
 }
