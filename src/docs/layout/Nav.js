@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 class LayoutNav extends React.Component {
   constructor(props) {
