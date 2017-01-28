@@ -27,12 +27,12 @@ const example = dedent(`
 const Home = ({title, gh}) => {
   return (
     <div>
-      <Jumbotron tag="section" className="jumbotron-header text-xs-center m-y-3">
+      <Jumbotron tag="section" className="jumbotron-header text-center my-5">
         <Container fluid>
           <Row>
-            <Col>
+            <Col sm={{ size: 10, offset: 1}}>
               <h1 className="display-4">{title}</h1>
-              <p className="lead m-y-2">
+              <p className="lead my-3">
                 An example reactstrap component built, documented & published with <a href="https://github.com/reactstrap/component-template">Component Template</a>
               </p>
               <p>
