@@ -42,7 +42,9 @@
     "react-scripts": "0.8.5",
     "reactstrap": "^4.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-router-dom": "4.0.0"
+  },
   "peerDependencies": {
     "reactstrap": "^4.0.0"
   },
