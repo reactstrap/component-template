@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Match } from 'react-router';
+import { BrowserRouter, Route } from 'react-router-dom';
 import LayoutNav from './layout/Nav';
 import LayoutFooter from './layout/Footer';
 import Home from './Home';
@@ -21,8 +21,8 @@ const Docs = () => {
       <div className="App">
         <LayoutNav title={title} gh={gh} />
         {/* Begin Routes */}
-        <Match exactly pattern="/" render={() => <Home title={title} gh={gh} />} />
-        <Match pattern="/documentation" component={Documentation} />
+        <Route exact pattern="/" render={() => <Home title={title} gh={gh} />} />
+        <Route pattern="/documentation" component={Documentation} />
         {/* End Routes */}
         <LayoutFooter gh={gh} />
       </div>
