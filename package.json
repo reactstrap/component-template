@@ -1,5 +1,5 @@
 {
-  "name": "component-template",
+  "name": "firemind-pattern-library",
   "description": "A React component template for building and publishing reactstrap components",
   "version": "1.0.0",
   "homepage": "https://reactstrap.github.io/component-template",
@@ -9,7 +9,8 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run browser-sync",
+    "browser-sync": "browser-sync start -s ./public --open local -w public",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint src",
